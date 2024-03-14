@@ -42,7 +42,7 @@ const Info = () => {
 
   return (
     <InfoContainer>
-      <p>Данні сертифіката:</p>
+      <p>Дані сертифіката:</p>
       {cert ? <InfoItems getData={getData} /> : '(Оберіть сертифікат)'}
     </InfoContainer>
   );
