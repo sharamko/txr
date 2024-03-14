@@ -7,7 +7,7 @@ const Items = () => {
   const certificates = useSelector((state) => state.reducer.certs);
   return (
     <ItemsList>
-      {certificates.length > 0 ? (
+      {certificates?.length > 0 ? (
         certificates.map((cert, index) => {
           return <Item key={index} cert={cert} />;
         })
