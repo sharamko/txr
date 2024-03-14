@@ -79,8 +79,8 @@ export const ItemElement = styled.div`
     }
   }
   transition: all 0.1s linear;
-  background-color: ${({ active }) =>
-    active ? 'wheat !important' : 'transparent'};
+  background-color: ${({ $active }) =>
+    $active ? 'wheat !important' : 'transparent'};
   &:hover {
     background-color: lightgrey;
   }
